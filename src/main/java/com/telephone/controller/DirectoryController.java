@@ -13,7 +13,7 @@ import java.util.List;
 public class DirectoryController {
 
     @Autowired
-    private DirectoryService directoryService;
+    private DirectoryService directoryService; 
 
     @PostMapping("/directory")
     public Directory saveDirectory(@RequestBody Directory directory) {
